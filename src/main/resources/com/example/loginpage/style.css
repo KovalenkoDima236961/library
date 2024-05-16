@@ -1,0 +1,22 @@
+.primary-color {
+    -fx-background-color: #ccd819;
+}
+
+.radius{
+    -fx-background-radius: 30;
+}
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.white-background {
+    -fx-background-color: #fff;
+}
+.input1 {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #898989;
+}
+.input2 {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #fff;
+}

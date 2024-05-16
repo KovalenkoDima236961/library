@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="213.0" prefWidth="400.0" spacing="15.0" style="-fx-background-radius: 15;" styleClass="shadow" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.controller.mainClient.CardController">
+   <children>
+      <ImageView fx:id="bookImage" fitHeight="155.0" fitWidth="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/fwu6ek1b78l9fphzjl93ar5tshsj.jpg" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER_LEFT" prefHeight="186.0" prefWidth="250.0" spacing="10.0">
+         <children>
+            <Label fx:id="bookName" prefHeight="83.0" prefWidth="258.0" text="The Adventures of &#10;Augie March" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="authorName" prefHeight="28.0" prefWidth="250.0" text="Saul Bellow" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="30.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-illustration-vector.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="howManyVotes" text="Кількість голосів за дану книгу" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

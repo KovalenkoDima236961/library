@@ -1,0 +1,204 @@
+.white-background {
+    -fx-background-color: #fff;
+}
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.round-layout {
+    -fx-border-radius: 50;
+    -fx-border-color: #D7D7D7;
+}
+
+.selected {
+    -fx-background-color: #F3F3F3;
+}
+
+.mouse-moved:hover{
+    -fx-background-color: #E4E4E4;
+}
+
+.shadow {
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0),10,0,0,10 );
+}
+
+.button-add-to-favorite {
+    -fx-background-color: #4CAF50; /* колір фону */
+    -fx-text-fill: white; /* колір тексту */
+    -fx-font-size: 14px; /* розмір шрифту */
+    -fx-padding: 8px 16px; /* відступи */
+    -fx-border-radius: 5px; /* радіус закруглення */
+}
+
+.button-add-to-favorite:hover {
+    -fx-background-color: #45a049; /* колір фону при наведенні */
+}
+
+.button-add-to-favorite:pressed {
+    -fx-background-color: #367c39; /* колір фону при натисканні */
+}
+
+.button-exit {
+    -fx-background-color: #f44336; /* колір фону */
+    -fx-text-fill: white; /* колір тексту */
+    -fx-font-size: 14px; /* розмір шрифту */
+    -fx-padding: 8px 16px; /* відступи */
+    -fx-border-radius: 5px; /* радіус закруглення */
+}
+
+.button-exit:hover {
+    -fx-background-color: #d32f2f; /* колір фону при наведенні */
+}
+
+.button-exit:pressed {
+    -fx-background-color: #b71c1c; /* колір фону при натисканні */
+}
+
+.button-select {
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50; /* Зелений колір для активної кнопки */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button-select:disabled {
+    -fx-background-color: #CCCCCC; /* Сірий колір для неактивної кнопки */
+    -fx-text-fill: #666666;
+    -fx-cursor: not-allowed;
+}
+.save-button {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-background-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: #195358;
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+}
+
+.save-button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.save-button:pressed {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-border-color: #195358;
+}
+.list-view {
+    -fx-background-color: #f4f4f4; /* Колір фону */
+}
+
+.list-cell {
+    -fx-background-color: transparent; /* Прозорий фон елементів */
+    -fx-text-fill: #333333; /* Колір тексту */
+    -fx-font-size: 14px; /* Розмір тексту */
+    -fx-padding: 5px 10px; /* Відступи */
+    -fx-background-insets: 0; /* Обрамлення фону */
+}
+
+.list-cell:hover {
+    -fx-background-color: #e0e0e0; /* Колір фону при наведенні */
+}
+
+.list-cell:selected {
+    -fx-background-color: #0078d4; /* Колір фону для вибраних елементів */
+    -fx-text-fill: white; /* Колір тексту для вибраних елементів */
+}
+
+/* Приклад стилізації полос прокрутки */
+.list-view .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #dcdcdc;
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: #666666;
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #666666;
+}
+
+
+
+.label-rules {
+    -fx-text-fill: red;
+    -fx-font-size: 16px;
+    -fx-background-color: lightgray;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+/* Звичайний стан кнопки */
+.button-start-quiz {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9); /* градієнтний колір фону */
+    -fx-text-fill: white; /* колір тексту */
+    -fx-font-size: 14px; /* розмір шрифту */
+    -fx-font-weight: bold; /* жирний шрифт */
+    -fx-padding: 10 20; /* відступи внутрішньої частини кнопки */
+    -fx-background-radius: 5px; /* радіус закруглення кутів */
+    -fx-border-color: #2c3e50; /* колір рамки */
+    -fx-border-width: 1px; /* товщина рамки */
+}
+
+/* Стан кнопки при наведенні курсору */
+.button-start-quiz:hover {
+    -fx-background-color: linear-gradient(to bottom, #2980b9, #3498db); /* градієнтний колір фону */
+}
+
+/* Стан кнопки при натисканні */
+.button-start-quiz:pressed {
+    -fx-background-color: #2980b9; /* колір фону */
+}
+.home-button {
+    -fx-background-color: #62107e; /* Зелений колір */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand; /* Зміна курсору на руку при наведенні */
+}
+
+.home-button:hover {
+    -fx-background-color: #530e75; /* Темніший відтінок зеленого при наведенні */
+}
+.custom-bar-chart .chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.custom-bar-chart .axis {
+    -fx-tick-label-font-size: 12px;
+    -fx-tick-label-fill: #666666;
+}
+
+.custom-bar-chart .axis-label {
+    -fx-label-padding: 10px;
+}
+
+.custom-bar-chart .bar {
+    -fx-bar-fill: #0066FF;
+}
+
+.custom-bar-chart .bar:hover {
+    -fx-bar-fill: #003399;
+}
+
+.custom-bar-chart .default-color0.chart-bar {
+    -fx-bar-fill: #0066FF;
+}
+
+.custom-bar-chart .default-color0.chart-bar:hover {
+    -fx-bar-fill: #003399;
+}

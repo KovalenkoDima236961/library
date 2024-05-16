@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.controller.login.LoginController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="735.0" prefWidth="521.0" spacing="50.0" styleClass="white-background" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="118.0" prefWidth="461.0">
+               <children>
+                  <Label prefHeight="70.0" prefWidth="379.0" text="Dream Library">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="262.0" text="Email and password" textFill="#181818">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="242.0" prefWidth="430.0" spacing="30.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input1" stylesheets="@style.css">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" stylesheets="@style.css" text="Emaill" textFill="#d66969">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="loginField" prefHeight="34.0" prefWidth="294.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input1" stylesheets="@style.css">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" text="Password" textFill="#d66969">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="passwordField" prefHeight="26.0" prefWidth="288.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="18.0" prefWidth="430.0">
+                     <children>
+                        <Label fx:id="incorrectLabel" prefHeight="18.0" prefWidth="397.0" text="You have incorrect password" textFill="#fc0909" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Button fx:id="loginButton" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="205.0" style="-fx-background-color: #d66969;" styleClass="radius" stylesheets="@style.css" text="Login" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="CENTER" prefHeight="735.0" prefWidth="511.0" spacing="50.0" styleClass="primary-color" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="118.0" prefWidth="461.0">
+               <children>
+                  <Label prefHeight="69.0" prefWidth="262.0" text="Register" textFill="WHITE">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="411.0" prefWidth="379.0" spacing="30.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input2" stylesheets="@style.css">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" text="Name" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="registerNameField" prefHeight="34.0" prefWidth="294.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input2">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" text="Email" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="emailRegisterField" prefHeight="34.0" prefWidth="294.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input2">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" text="Phone" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="registerPhoneField" prefHeight="34.0" prefWidth="294.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="200.0" styleClass="input2">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="131.0" text="Password" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="registerPasswordField" prefHeight="26.0" prefWidth="240.0" styleClass="transparent" stylesheets="@style.css" />
+                     </children>
+                  </HBox>
+                  <RadioButton fx:id="registerRadioButton" mnemonicParsing="false" text="I accept terms and conditions and privicy policy" textFill="WHITE" />
+                  <Label fx:id="registerErrorLabel" text="You have error" textFill="#ef0202" visible="false">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="registerButton" mnemonicParsing="false" onAction="#registration" prefHeight="40.0" prefWidth="215.0" style="-fx-background-color: #fff;" styleClass="radius" stylesheets="@style.css" text="Register" textFill="#161616">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox spacing="20.0" />
+         </children>
+         <padding>
+            <Insets left="50.0" right="50.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

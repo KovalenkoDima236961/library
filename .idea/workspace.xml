@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'LoginPage'" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LoginPage:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96c2bc0f-8f8f-40b7-a9d7-7a9f35438e29" name="Changes" comment="Change javadoc" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Aspect" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../LibraryWithMaven" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KovalenkoDima236961&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KovalenkoDima236961/LibraryJavaFX.git",
+    "accountId": "f4738f32-b668-4b5b-b6b2-a90efef999f2"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dgWWApdabYUtkxNm2BU3grAWWA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.HelloApplication.executor": "Run",
+    "Maven.LoginPage [biz.aQute.bnd:bnd-maven-plugin:3.3.0:bnd-process].executor": "Run",
+    "Maven.LoginPage [clean].executor": "Run",
+    "Maven.LoginPage [install].executor": "Run",
+    "Maven.LoginPage [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dima/IdeaProjects/libraryFullWorked",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.16709733",
+    "project.structure.side.proportion": "0.116959065",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\IdeaProjects\LoginPage\src\main\resources\com\example\loginpage" />
+      <recent name="C:\Users\Dima\IdeaProjects\LoginPage\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.loginpage.HelloApplication" />
+      <module name="Library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Library" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96c2bc0f-8f8f-40b7-a9d7-7a9f35438e29" name="Changes" comment="" />
+      <created>1710430230450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710430230450</updated>
+      <workItem from="1710430231452" duration="2131000" />
+      <workItem from="1710435863525" duration="29000" />
+      <workItem from="1710437043380" duration="4000" />
+      <workItem from="1710609000140" duration="166000" />
+      <workItem from="1710609235450" duration="7000" />
+      <workItem from="1710609284216" duration="41000" />
+      <workItem from="1710609537651" duration="18000" />
+      <workItem from="1710609567101" duration="1413000" />
+      <workItem from="1710698912671" duration="4017000" />
+      <workItem from="1710706278280" duration="61000" />
+      <workItem from="1710746957605" duration="1788000" />
+      <workItem from="1710763351568" duration="7360000" />
+      <workItem from="1710776844509" duration="10342000" />
+      <workItem from="1710791291336" duration="11000" />
+      <workItem from="1710852228042" duration="1263000" />
+      <workItem from="1710863349296" duration="126000" />
+      <workItem from="1710866234024" duration="1915000" />
+      <workItem from="1710872025204" duration="2004000" />
+      <workItem from="1710919179533" duration="15000" />
+      <workItem from="1710923538168" duration="1241000" />
+      <workItem from="1710940177132" duration="298000" />
+      <workItem from="1710955662524" duration="248000" />
+      <workItem from="1710956024932" duration="8000" />
+      <workItem from="1710958057291" duration="2090000" />
+      <workItem from="1711013540776" duration="950000" />
+      <workItem from="1711026063218" duration="9753000" />
+      <workItem from="1711039645875" duration="253000" />
+      <workItem from="1711046317421" duration="960000" />
+      <workItem from="1711097767225" duration="6286000" />
+      <workItem from="1711104717431" duration="4978000" />
+      <workItem from="1711113507745" duration="133000" />
+      <workItem from="1711113868767" duration="17000" />
+      <workItem from="1711120447997" duration="161000" />
+      <workItem from="1711123491303" duration="1182000" />
+      <workItem from="1711212174356" duration="921000" />
+      <workItem from="1711218974666" duration="737000" />
+      <workItem from="1711290787894" duration="2880000" />
+      <workItem from="1711294269985" duration="24000" />
+      <workItem from="1711299644404" duration="2563000" />
+      <workItem from="1711362296095" duration="2472000" />
+      <workItem from="1711457640501" duration="1662000" />
+      <workItem from="1711544643398" duration="3047000" />
+      <workItem from="1711552750158" duration="2067000" />
+      <workItem from="1711554918402" duration="59000" />
+      <workItem from="1712056651796" duration="8507000" />
+      <workItem from="1712071032815" duration="5885000" />
+      <workItem from="1712124842576" duration="67000" />
+      <workItem from="1712126157331" duration="1581000" />
+      <workItem from="1712146601154" duration="77000" />
+      <workItem from="1712149814606" duration="843000" />
+      <workItem from="1712151019515" duration="754000" />
+      <workItem from="1712161480072" duration="6000" />
+      <workItem from="1712162484387" duration="836000" />
+      <workItem from="1712167327065" duration="9000" />
+      <workItem from="1712241162512" duration="2931000" />
+      <workItem from="1712298920356" duration="2859000" />
+      <workItem from="1712316143111" duration="3568000" />
+      <workItem from="1712324630294" duration="55000" />
+      <workItem from="1712324737149" duration="4284000" />
+      <workItem from="1712335265740" duration="5000" />
+      <workItem from="1712413519798" duration="1833000" />
+      <workItem from="1712415683088" duration="4162000" />
+      <workItem from="1712427907750" duration="56000" />
+      <workItem from="1712428728967" duration="1374000" />
+      <workItem from="1712504264936" duration="3290000" />
+      <workItem from="1712518971072" duration="1239000" />
+      <workItem from="1712522592067" duration="665000" />
+      <workItem from="1712523345048" duration="290000" />
+      <workItem from="1712553353724" duration="11000" />
+      <workItem from="1713357487818" duration="200000" />
+      <workItem from="1713385747329" duration="1167000" />
+      <workItem from="1713388131813" duration="13000" />
+      <workItem from="1713461962405" duration="65000" />
+      <workItem from="1713471389143" duration="136000" />
+      <workItem from="1713518263414" duration="1650000" />
+      <workItem from="1713633164513" duration="801000" />
+      <workItem from="1713637971728" duration="632000" />
+      <workItem from="1713638769917" duration="49000" />
+      <workItem from="1713695946046" duration="1050000" />
+      <workItem from="1713769533504" duration="7536000" />
+      <workItem from="1713788963746" duration="252000" />
+      <workItem from="1713863196475" duration="1093000" />
+      <workItem from="1713865690033" duration="277000" />
+      <workItem from="1713899960030" duration="1858000" />
+      <workItem from="1713939338354" duration="509000" />
+      <workItem from="1713955866060" duration="551000" />
+      <workItem from="1713957137945" duration="491000" />
+      <workItem from="1713961546294" duration="3126000" />
+      <workItem from="1713971748345" duration="11000" />
+      <workItem from="1714142854334" duration="354000" />
+      <workItem from="1714469313118" duration="1354000" />
+      <workItem from="1714471463506" duration="8000" />
+      <workItem from="1714656047714" duration="3545000" />
+      <workItem from="1714729948965" duration="134000" />
+      <workItem from="1714730210775" duration="18000" />
+      <workItem from="1715078911308" duration="39000" />
+      <workItem from="1715092417074" duration="1069000" />
+      <workItem from="1715179319378" duration="52000" />
+      <workItem from="1715354064301" duration="2354000" />
+      <workItem from="1715423081263" duration="1001000" />
+      <workItem from="1715424112344" duration="15048000" />
+      <workItem from="1715439270061" duration="2243000" />
+      <workItem from="1715501810968" duration="11351000" />
+      <workItem from="1715513351797" duration="19386000" />
+      <workItem from="1715533774130" duration="432000" />
+      <workItem from="1715537194496" duration="288000" />
+      <workItem from="1715537554030" duration="1558000" />
+      <workItem from="1715541400647" duration="1049000" />
+      <workItem from="1715578537142" duration="226000" />
+      <workItem from="1715578848550" duration="70000" />
+      <workItem from="1715846446303" duration="3549000" />
+      <workItem from="1715850645670" duration="1238000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add a search engine in the browser. Also add a notification window that will be called when the application is closed.Also added multithreading in the UserDAO class">
+      <option name="closed" value="true" />
+      <created>1712127432321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712127432321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented the DAO interface, also added specific methods and fields for different types of books.TopSection has removed the display of the top 3 books, now only 1 is shown">
+      <option name="closed" value="true" />
+      <created>1712242558601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712242558601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I made it so that when the search string is empty, it lists all the books">
+      <option name="closed" value="true" />
+      <created>1712522652832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712522652832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I added my own exception.I redesigned the admin panel a bit and decided where I would add the default method">
+      <option name="closed" value="true" />
+      <created>1713519687321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713519687321</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rewrite Observer and add Aspect but now he doesn't work">
+      <option name="closed" value="true" />
+      <created>1713773225787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713773225787</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Factory Method and fix problem in ControllerForEveryBook">
+      <option name="closed" value="true" />
+      <created>1713775578617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713775578617</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add new Exception and Rewrite QuizPageController">
+      <option name="closed" value="true" />
+      <created>1713776959870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713776959871</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add comments">
+      <option name="closed" value="true" />
+      <created>1713956413284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713956413285</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add user in Profile Admin">
+      <option name="closed" value="true" />
+      <created>1713962544474</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713962544474</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete user in Profile Admin">
+      <option name="closed" value="true" />
+      <created>1713963430364</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713963430364</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add HistoryController, and Serialization">
+      <option name="closed" value="true" />
+      <created>1714730027488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714730027488</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Almost finally version">
+      <option name="closed" value="true" />
+      <created>1715509082188</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715509082188</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added normal linking and fixed some bugs in general">
+      <option name="closed" value="true" />
+      <created>1715521410028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715521410028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added new serialization and fix small bag">
+      <option name="closed" value="true" />
+      <created>1715525815297</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715525815297</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add javadoc, refresh Documentation OOP.docx and Documentation OOP.pdf.Also add diag.png">
+      <option name="closed" value="true" />
+      <created>1715529575838</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715529575838</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Rewritten documentation and README">
+      <option name="closed" value="true" />
+      <created>1715531368445</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715531368445</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Change style">
+      <option name="closed" value="true" />
+      <created>1715532634872</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715532634872</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Found bug in delete user">
+      <option name="closed" value="true" />
+      <created>1715534033810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715534033810</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Change style.css background color">
+      <option name="closed" value="true" />
+      <created>1715537374744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715537374744</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Change pages">
+      <option name="closed" value="true" />
+      <created>1715539310850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715539310850</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Change javadoc">
+      <option name="closed" value="true" />
+      <created>1715542335310</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715542335310</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change javadoc">
+      <option name="closed" value="true" />
+      <created>1715542407558</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715542407558</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add a search engine in the browser. Also add a notification window that will be called when the application is closed.Also added multithreading in the UserDAO class" />
+    <MESSAGE value="Implemented the DAO interface, also added specific methods and fields for different types of books.TopSection has removed the display of the top 3 books, now only 1 is shown" />
+    <MESSAGE value="I made it so that when the search string is empty, it lists all the books" />
+    <MESSAGE value="I added my own exception.I redesigned the admin panel a bit and decided where I would add the default method" />
+    <MESSAGE value="Rewrite Observer and add Aspect but now he doesn't work" />
+    <MESSAGE value="Add Factory Method and fix problem in ControllerForEveryBook" />
+    <MESSAGE value="Add new Exception and Rewrite QuizPageController" />
+    <MESSAGE value="Add comments" />
+    <MESSAGE value="Add user in Profile Admin" />
+    <MESSAGE value="Delete user in Profile Admin" />
+    <MESSAGE value="Add HistoryController, and Serialization" />
+    <MESSAGE value="Almost finally version" />
+    <MESSAGE value="Added normal linking and fixed some bugs in general" />
+    <MESSAGE value="Added new serialization and fix small bag" />
+    <MESSAGE value="Add javadoc, refresh Documentation OOP.docx and Documentation OOP.pdf.Also add diag.png" />
+    <MESSAGE value="Rewritten documentation and README" />
+    <MESSAGE value="Change style" />
+    <MESSAGE value="Found bug in delete user" />
+    <MESSAGE value="Change style.css background color" />
+    <MESSAGE value="Change pages" />
+    <MESSAGE value="Change javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change javadoc" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
