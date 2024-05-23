@@ -33,6 +33,7 @@
             </ul>
         </li>
 </ol>
+
 <h2>Data Selection</h2>
     <ul>
         <li><strong>Database:</strong> The application uses a database to store information about users and books.</li>
@@ -40,9 +41,6 @@
         <li><strong>Performance:</strong> A new thread is created during database creation to enhance application performance.</li>
     </ul>
 
-    <h2>Design</h2>
+<h2>Design</h2>
     <p>The application's frontend design was inspired by a tutorial video by Mahmoud Hamwi, which provides an excellent guide for creating user-friendly interfaces. You can view the video <a href="https://www.youtube.com/watch?v=L3PLDAZWU9s&ab_channel=MahmoudHamwi" target="_blank">here</a>.</p>
-
-    <hr>
-
     <p>Enjoy your journey through our interactive library and make the most out of its rich features! Happy reading and exploring!</p>
