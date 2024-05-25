@@ -7,6 +7,7 @@ import com.example.loginpage.module.books.Book;
 import com.example.loginpage.module.books.typeofbooks.*;
 
 import java.sql.*;
+import java.time.format.SignStyle;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -31,7 +32,7 @@ public class BookDAO implements DAO, FavouritesObservable {
     /**
      * URL of the PostgreSQL database.
      */
-    private static final String URL = "jdbc:postgresql://database-library.cl22ko6iumdh.eu-central-1.rds.amazonaws.com:5432/libraryjava";
+    private static final String URL = "jdbc:postgresql://localhost:5432/for_lib";
     /**
      * Username for accessing the database.
      */
@@ -39,7 +40,7 @@ public class BookDAO implements DAO, FavouritesObservable {
     /**
      * Password for accessing the database.
      */
-    private static final String PASSWORD = "eWQAmYr24n30";
+    private static final String PASSWORD = "dimaborec";
     /**
      * Connection object for managing the database connection.
      */
@@ -533,7 +534,7 @@ public class BookDAO implements DAO, FavouritesObservable {
      */
     public CompletableFuture<Boolean> isFavorite(int userId, int bookId) {
         return CompletableFuture.supplyAsync(() -> {
-            String checkSQL = "SELECT COUNT(*) FROM user_favourite_book WHERE user_id = ? AND bool_id = ?";
+            String checkSQL = "SELECT COUNT(*) FROM user_favourite_book WHERE user_id = ? AND book_id = ?";
             try (PreparedStatement checkStatement = connection.prepareStatement(checkSQL)) {
                 checkStatement.setInt(1, userId);
                 checkStatement.setInt(2, bookId);
@@ -561,7 +562,7 @@ public class BookDAO implements DAO, FavouritesObservable {
                 return CompletableFuture.completedFuture(false);
             } else {
                 return CompletableFuture.supplyAsync(() -> {
-                    String insertSQL = "INSERT INTO user_favourite_book (user_id, bool_id) VALUES (?, ?)";
+                    String insertSQL = "INSERT INTO user_favourite_book (user_id, book_id) VALUES (?, ?)";
                     try (PreparedStatement insertStatement = connection.prepareStatement(insertSQL)) {
                         insertStatement.setInt(1, userId);
                         insertStatement.setInt(2, bookId);
@@ -630,7 +631,7 @@ public class BookDAO implements DAO, FavouritesObservable {
      */
     public CompletableFuture<Boolean> deleteFromFavorites(int userId, int bookId) {
         return CompletableFuture.supplyAsync(() -> {
-            String deleteSQL = "DELETE FROM user_favourite_book WHERE user_id = ? AND bool_id = ?";
+            String deleteSQL = "DELETE FROM user_favourite_book WHERE user_id = ? AND book_id = ?";
             try (PreparedStatement deleteStatement = connection.prepareStatement(deleteSQL)) {
                 deleteStatement.setInt(1, userId);
                 deleteStatement.setInt(2, bookId);

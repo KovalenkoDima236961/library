@@ -31,7 +31,7 @@ public class UserDAO implements DAO {
     /**
      * URL of the PostgreSQL database.
      */
-    private static final String URL = "jdbc:postgresql://database-library.cl22ko6iumdh.eu-central-1.rds.amazonaws.com:5432/libraryjava";
+    private static final String URL = "jdbc:postgresql://localhost:5432/for_lib";
     /**
      * Username for accessing the database.
      */
@@ -39,7 +39,7 @@ public class UserDAO implements DAO {
     /**
      * Password for accessing the database.
      */
-    private static final String PASSWORD = "eWQAmYr24n30";
+    private static final String PASSWORD = "dimaborec";
     /**
      * Connection object for managing the database connection.
      */
@@ -309,7 +309,7 @@ public class UserDAO implements DAO {
     public List<Book> getFavoriteBooks(int userId) {
         CompletableFuture<List<Book>> future = CompletableFuture.supplyAsync(() -> {
             List<Book> favoriteBooks = new ArrayList<>();
-            String SQL = "SELECT b.* FROM user_favourite_book fb JOIN books b ON fb.bool_id = b.id WHERE fb.user_id = ?";  // Corrected column name from bool_id to book_id
+            String SQL = "SELECT b.* FROM user_favourite_book fb JOIN books b ON fb.book_id = b.id WHERE fb.user_id = ?";  // Corrected column name from bool_id to book_id
             try (PreparedStatement preparedStatement = connection.prepareStatement(SQL)) {
                 preparedStatement.setInt(1, userId);
                 ResultSet resultSet = preparedStatement.executeQuery();

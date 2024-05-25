@@ -55,6 +55,9 @@ public class HelloApplication extends Application {
      */
     @Override
     public void start(Stage stage) throws IOException {
+        System.out.println("DATABASE_URL: " + System.getenv("DATABASE_URL"));
+        System.out.println("DATABASE_USERNAME: " + System.getenv("DATABASE_USERNAME"));
+        System.out.println("DATABASE_PASSWORD: " + System.getenv("DATABASE_PASSWORD"));
         SerializationBooks.setFlag(true);
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sample.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
